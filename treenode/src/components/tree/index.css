@@ -1,0 +1,98 @@
+.smb-tree {
+    padding-left: 5px;
+    min-width: 20px;
+    min-height: 10px;
+    width: 20px;
+    display: flex;
+    flex-direction: column;
+  }
+  .smb-node {
+    padding-left: 0px;
+    width: max-content;
+    height: max-content;
+  }
+  .smb-inner {
+    padding-left: 0px;
+    display: flex;
+    flex-direction: row;
+    height: 20px;
+  }
+  .smb-tree-btn {
+    border: none;
+    background: transparent;
+    width: max-content;
+    height: max-content;
+    padding-left: 0px;
+    color: rgb(66, 63, 63);
+  }
+  .smb-tree-btn:hover {
+    color: black;
+  }
+  .smb-tree-btn:focus {
+    background-color: #dddbdb;
+  }
+  .smb-link {
+    color: rgb(88, 88, 88);
+    padding-left: 0px;
+  }
+  .smb-link:hover {
+    text-decoration: none;
+    color: rgb(170, 168, 168);
+  }
+  .smb-item {
+    padding-left: 0px;
+    padding-top: 0px;
+    text-decoration: none;
+  }
+  .smb-item:hover {
+    text-decoration: none;
+  }
+  .smb-children {
+    position: relative;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .smb-children-opened {
+    position: relative;
+    padding-left: 25px;
+    display: flex;
+    flex-direction: column;
+    background-image: url("./children.png");
+    background-repeat: repeat-y;
+    background-position-x: 0%;
+  }
+  .deep {
+    width: 15px;
+    height: 17px;
+    background-image: url("./deep.png");
+    background-position: 50% 50%;
+  }
+  .node-deep-open {
+    width: 18px;
+    height: 18px;
+    background-image: url("./node-open-v2.png");
+    background-repeat: no-repeat;
+  }
+  .node-deep-closed {
+    width: 18px;
+    height: 18px;
+    background-image: url("./node-closed-v2.png");
+    background-repeat: no-repeat;
+  }
+  .root-deep-closed {
+    width: 18px;
+    height: 18px;
+    background-image: url("./root-closed.png");
+    background-repeat: no-repeat;
+  }
+  .root-deep-open {
+    width: 18px;
+    height: 18px;
+    background-image: url("./root-open.png");
+    background-repeat: no-repeat;
+  }
+  .spinner-border {
+    border-radius: 50% !important;
+  }
+  
